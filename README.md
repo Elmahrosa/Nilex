@@ -1,4 +1,4 @@
-# nilex
+# Nilex Egypt’s Civic DEX
 Repository created autonomously  by Elmahrosa International 
 # 🪙 TEOS Swap Engine
 A custom Solana-based swap engine for TEOS and TUT, built to enable direct token exchange without relying on external platforms like Orca or Dexlab.
