@@ -11,6 +11,9 @@ Unlike conventional DEXs, Nilex operates independently—free from external plat
 - TEOS ↔ USDC  
 - TUT ↔ USDT  
 - *(Expandable to BONK, USD1, ERT, and other SPL tokens)*
+## 🌐 Live Site
+
+Visit [Nilex.teosegypt.com](https://nilex.teosegypt.com) to swap TEOS and TUT with stablecoins directly from your wallet.
 
 ---
 
