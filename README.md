@@ -85,7 +85,7 @@ Be part of Egypt’s digital backbone.
 ## 📣 Contact & Contributions
 
 For campaign inquiries, AMA sessions, or contributor onboarding:  
-📨 [Telegram](https://t.me/King_Teos_Egypt)  
+📨 [Telegram]( https://t.me/Elmahrosapi)  
 🌍 [Tally Form](https://tally.so/r/mDL7Yb)
 
 Pull requests and community forks are welcome.
