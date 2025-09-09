@@ -1,0 +1,19 @@
+// config/mainnet.json
+{
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "tokens": {
+    "TEOS": {
+      "mint": "AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo",
+      "decimals": 9
+    },
+    "TUT": {
+      "mint": "Gvce3ukeWYDprBeVtYrqUVdgMcRGADWSkX5vCKMQG3b5",
+      "decimals": 6
+    }
+  },
+  "feeTiers": [
+    { "volumeThreshold": 0, "feeBps": 30 },
+    { "volumeThreshold": 100000000, "feeBps": 25 },
+    { "volumeThreshold": 1000000000, "feeBps": 15 }
+  ]
+}
