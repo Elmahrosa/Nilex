@@ -1,0 +1,14 @@
+// frontend/src/components/Dashboard.jsx
+const TreasuryStats = () => {
+  const { data } = useSWR('/api/treasury', fetcher);
+  
+  return (
+    <GoldCard>
+      <Typography variant="h6">Treasury Balance</Typography>
+      <Typography variant="h3" color="primary">
+        {data?.balance} TEOS
+      </Typography>
+      <VolumeChart data={data?.volume_24h} />
+    </GoldCard>
+  );
+};
