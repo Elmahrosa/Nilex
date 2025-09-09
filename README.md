@@ -89,6 +89,8 @@ cd nilex
 npm install
 ```
 ## 🧱 Repo Structure Blueprint
+
+```plaintext
 nilex/
 ├── smart-contract/       # Anchor-based swap logic (TEOS ↔ TUT)
 │   └── src/
