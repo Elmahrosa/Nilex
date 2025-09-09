@@ -1,0 +1,20 @@
+// programs/nilex/src/state.rs
+#[account]
+pub struct Pool {
+    pub teos_mint: Pubkey,          // AhXBUQ...JaSo
+    pub tut_mint: Pubkey,           // Gvce3u...QG3b5
+    pub fee_wallet: Pubkey,         // Treasury PDA
+    pub fee_bps: u16,               // Dynamic: 30bps (0.3%) default
+    pub base_rate: u64,             // TEOS/TUT base exchange rate
+    pub volume_24h: u64,            // Track for dynamic fees
+    pub bump: u8,
+}
+
+// Dynamic fee logic
+fn calculate_fee(amount: u64, volume_24h: u64) -> u64 {
+    match volume_24h {
+        v if v > 1_000_000_000 => amount * 15 / 10_000,  // 0.15% for high volume
+        v if v > 100_000_000 => amount * 25 / 10_000,    // 0.25%
+        _ => amount * 30 / 10_000,                       // 0.3% default
+    }
+}
