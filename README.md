@@ -95,3 +95,12 @@ For campaign inquiries, AMA sessions, or contributor onboarding:
 Pull requests and community forks are welcome.
 
 ---
+
+**Nilex is not a product. It’s a protocol.**  
+Built by Elmahrosa. Powered by contributors. Open to the world.  
+Swap TEOS ↔ TUT. Defend sovereignty. Activate civic liquidity.
+
+**#TEOSEGYPT2025**  
+**#Nilex**  
+**#CivicDEX**  
+**#ProtocolSovereignty**
