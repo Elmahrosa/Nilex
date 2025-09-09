@@ -1,0 +1,16 @@
+// tests/nilex.test.ts
+describe("Nilex Swap", () => {
+  it("Executes TEOS → TUT swap with 0.3% fee", async () => {
+    const swapAmount = 100_000_000; // 1 TEOS (9 decimals)
+    const expectedOutput = /*...calculated...*/;
+    const expectedFee = swapAmount * 0.003;
+
+    await program.rpc.swap(swapAmount, {
+      accounts: { /*...*/ },
+    });
+
+    // Verify balances changed correctly
+    expect(/*...*/).toEqual(expectedOutput);
+    expect(/*treasury balance*/).toHaveIncreasedBy(expectedFee);
+  });
+});
