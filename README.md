@@ -85,6 +85,13 @@ Join the civic pool. Activate your liquidity.
 Be part of Egypt’s digital backbone.
 
 ---
+## 👥 Contributors
+
+- **Ayman** – Founder, architect, and visionary  
+- [Your Devs or Designers] – Smart contract logic, frontend UI, campaign design  
+- [Community Members] – Civic liquidity, testing, and governance feedback
+
+Want to contribute? Fork the repo, submit a PR, or join the civic pool.
 
 ## 📣 Contact & Contributions
 
