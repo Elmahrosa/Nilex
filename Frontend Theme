@@ -1,0 +1,26 @@
+// frontend/src/styles/theme.ts
+export const nilexTheme = {
+  palette: {
+    mode: 'dark',
+    primary: {
+      main: '#FFD700', // Gold
+    },
+    background: {
+      default: '#000000', // Civic black
+      paper: '#121212',
+    },
+    text: {
+      primary: '#FFFFFF',
+      secondary: '#FFD700',
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          border: '1px solid #FFD700',
+        },
+      },
+    },
+  },
+};
