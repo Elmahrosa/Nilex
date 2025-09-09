@@ -67,3 +67,27 @@ Clone the repository and install dependencies:
 git clone https://github.com/Elmahrosa/nilex.git
 cd nilex
 npm install
+```
+
+---
+
+## 🧠 About the Movement
+
+Nilex isn’t just a product—it’s a protocol.  
+Built by Elmahrosa. Powered by contributors. Open to the world.  
+Swap TEOS ↔ TUT directly. No Orca. No Dexlab. Just sovereignty.
+
+Join the civic pool. Activate your liquidity.  
+Be part of Egypt’s digital backbone.
+
+---
+
+## 📣 Contact & Contributions
+
+For campaign inquiries, AMA sessions, or contributor onboarding:  
+📨 [Telegram](https://t.me/King_Teos_Egypt)  
+🌍 [Tally Form](https://tally.so/r/mDL7Yb)
+
+Pull requests and community forks are welcome.
+
+---
