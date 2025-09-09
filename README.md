@@ -50,8 +50,35 @@ Visit [nilex.teosegypt.com](https://nilex.teosegypt.com) to swap TEOS and TUT wi
 `F1YLmukcxAyZj6zVpi2XaVctmYnuZQB5uHpd3uUpXxr6`  
 Used for liquidity management, fee collection, and civic funding.
 
----
+# 🔐 Treasury Wallet – Civic Liquidity Engine
 
+The Nilex treasury wallet is the backbone of civic liquidity. It receives protocol fees, manages campaign funds, and redistributes assets to contributors and governance pools.
+
+## 📦 Wallet Address
+
+`F1YLmukcxAyZj6zVpi2XaVctmYnuZQB5uHpd3uUpXxr6`
+
+## 🧠 Treasury Logic
+
+- **Fee Collection**: Every swap on Nilex deducts a small civic fee (e.g. 0.5%) routed to the treasury.
+- **Liquidity Management**: Treasury funds are used to seed TEOS/TUT pools and defend against whale centralization.
+- **Campaign Funding**: Contributors receive TEOS or TUT from the treasury for staking, governance, or referral campaigns.
+- **Transparency**: All treasury movements are logged and visible on-chain.
+
+## 🔄 Example Flow
+
+1. User swaps TEOS → USDC  
+2. 0.5% civic fee sent to treasury  
+3. Treasury uses USDC to reinforce TEOS pool  
+4. Contributor earns TEOS from treasury for campaign participation
+
+## 🛡️ Sovereignty Rules
+
+- Treasury cannot be accessed by private wallets  
+- All disbursements are governed by smart contract logic  
+- Emergency withdrawals require multi-sig approval
+
+---
 ## 🚀 Features
 
 - Custom swap rates and fee logic  
