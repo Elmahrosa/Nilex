@@ -74,3 +74,67 @@ Clone the repository and install dependencies:
 git clone https://github.com/Elmahrosa/nilex.git
 cd nilex
 npm install
+
+---
+## 🧱 Repo Structure Blueprint
+
+```plaintext
+nilex/
+├── smart-contract/       # Anchor-based swap logic (TEOS ↔ TUT)
+│   └── src/
+│       └── lib.rs        # Core swap logic
+│   └── Cargo.toml        # Anchor config
+│   └── tests/            # Unit tests
+│
+├── frontend/             # Vite or Next.js UI
+│   └── pages/
+│   └── components/
+│   └── hooks/
+│   └── public/
+│   └── styles/
+│   └── vite.config.js or next.config.js
+│
+├── config/
+│   └── tokens.js         # TEOS, TUT, decimals, mint addresses
+│   └── poolConfig.js     # Swap rates, fees, whitelist logic
+│
+├── utils/
+│   └── walletConnect.js  # Phantom/Backpack integration
+│   └── rateLogic.js      # Dynamic swap rate engine
+│
+├── .env.example          # RPC endpoint, token config
+├── README.md             # Mythic launch doc
+├── LICENSE               # MIT or custom civic license
+```
+
+---
+
+## 🚀 Features
+
+- Custom swap rates and fee logic  
+- Treasury wallet integration  
+- Whitelist-only access *(optional)*  
+- Dashboard for volume and earnings  
+- Expandable to support ERT or any SPL token  
+- Contributor-first design with civic incentives
+
+---
+
+## 👥 Contributors
+
+- **Ayman** – Founder, architect, and visionary  
+- *[Your Devs or Designers]* – Smart contract logic, frontend UI, campaign design  
+- *[Community Members]* – Civic liquidity, testing, and governance feedback
+
+Want to contribute? Fork the repo, submit a PR, or join the civic pool.
+---
+## 📣 Contact & Contributions
+For campaign inquiries, AMA sessions, or contributor onboarding:  
+📨 [Telegram](https://t.me/Elmahrosapi)  
+🌍 [Tally Form](https://tally.so/r/mDL7Yb)
+
+Pull requests and community forks are welcome.
+
+**Nilex is not a product. It’s a protocol.**  
+Built by Elmahrosa. Powered by contributors. Open to the world.  
+Swap TEOS ↔ TUT. Defend sovereignty. Activate civic liquidity.
