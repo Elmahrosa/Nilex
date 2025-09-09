@@ -9,31 +9,32 @@
 Unlike conventional DEXs, Nilex operates independently—free from external platforms like Orca or Dexlab. It’s designed for Egypt’s contributors, creators, and communities, with full control over liquidity, governance, and civic incentives.
 
 This project is open-source and actively maintained on GitHub.
-
 ---
-
 ## 🔁 Supported Swaps
 
 - `TEOS ↔ USDC`  
 - `TUT ↔ USDT`  
 - *(Expandable to BONK, USD1, ERT, and other SPL tokens)*
-
 ---
+## 🧠 About the Movement
+
+Nilex isn’t just a product—it’s a protocol.  
+Built by Elmahrosa. Powered by contributors. Open to the world.  
+Swap TEOS ↔ TUT directly. No Orca. No Dexlab. Just sovereignty.
+
+Join the civic pool. Activate your liquidity.  
+Be part of Egypt’s digital backbone.
 
 ## 🌐 Live Site
 
 Visit [nilex.teosegypt.com](https://nilex.teosegypt.com) to swap TEOS and TUT with stablecoins directly from your wallet.
-
 ---
-
 ## 🛠️ Tech Stack
 
 - **Solana Web3.js** + **Anchor** – Smart contract logic  
 - **Vite** or **Next.js** – Frontend interface  
 - **Supabase** *(optional)* – Logging, analytics, and contributor tracking
-
 ---
-
 ## 🪙 Token Addresses
 
 | Token | Address |
@@ -77,8 +78,44 @@ The Nilex treasury wallet is the backbone of civic liquidity. It receives protoc
 - Treasury cannot be accessed by private wallets  
 - All disbursements are governed by smart contract logic  
 - Emergency withdrawals require multi-sig approval
-
 ---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/Elmahrosa/nilex.git
+cd nilex
+npm install
+```
+## 🧱 Repo Structure Blueprint
+nilex/
+├── smart-contract/       # Anchor-based swap logic (TEOS ↔ TUT)
+│   └── src/
+│       └── lib.rs        # Core swap logic
+│   └── Cargo.toml        # Anchor config
+│   └── tests/            # Unit tests
+│
+├── frontend/             # Vite or Next.js UI
+│   └── pages/
+│   └── components/
+│   └── hooks/
+│   └── public/
+│   └── styles/
+│   └── vite.config.js or next.config.js
+│
+├── config/
+│   └── tokens.js         # TEOS, TUT, decimals, mint addresses
+│   └── poolConfig.js     # Swap rates, fees, whitelist logic
+│
+├── utils/
+│   └── walletConnect.js  # Phantom/Backpack integration
+│   └── rateLogic.js      # Dynamic swap rate engine
+│
+├── .env.example          # RPC endpoint, token config
+├── README.md             # Mythic launch doc
+├── LICENSE               # MIT or custom civic license
+
 ## 🚀 Features
 
 - Custom swap rates and fee logic  
@@ -87,30 +124,6 @@ The Nilex treasury wallet is the backbone of civic liquidity. It receives protoc
 - Dashboard for volume and earnings  
 - Expandable to support ERT or any SPL token  
 - Contributor-first design with civic incentives
-
----
-
-## 📦 Installation
-
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/Elmahrosa/nilex.git
-cd nilex
-npm install
-```
-
----
-
-## 🧠 About the Movement
-
-Nilex isn’t just a product—it’s a protocol.  
-Built by Elmahrosa. Powered by contributors. Open to the world.  
-Swap TEOS ↔ TUT directly. No Orca. No Dexlab. Just sovereignty.
-
-Join the civic pool. Activate your liquidity.  
-Be part of Egypt’s digital backbone.
-
 ---
 ## 👥 Contributors
 
@@ -127,9 +140,7 @@ For campaign inquiries, AMA sessions, or contributor onboarding:
 🌍 [Tally Form](https://tally.so/r/mDL7Yb)
 
 Pull requests and community forks are welcome.
-
 ---
-
 **Nilex is not a product. It’s a protocol.**  
 Built by Elmahrosa. Powered by contributors. Open to the world.  
 Swap TEOS ↔ TUT. Defend sovereignty. Activate civic liquidity.
