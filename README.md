@@ -1,4 +1,8 @@
 # 🌊 Nilex – Egypt’s Civic DEX
+![GitHub Repo Stars](https://img.shields.io/github/stars/Elmahrosa/Nilex?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/Elmahrosa/Nilex?style=social)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/Elmahrosa/Nilex)
+![GitHub License](https://img.shields.io/github/license/Elmahrosa/Nilex)
 
 **Nilex**, maintained by **Elmahrosa International**, is Egypt’s first civic decentralized exchange (DEX) built on the **Solaroni blockchain**. It empowers transparent, secure, and locally-driven token swaps—starting with native civic assets like **TEOS** and **TUT**, and expanding to stablecoins such as **USDC** and **USDT**.
 
