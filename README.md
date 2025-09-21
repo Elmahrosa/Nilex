@@ -5,7 +5,7 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/Elmahrosa/Nilex)
 ![GitHub License](https://img.shields.io/github/license/Elmahrosa/Nilex)
 
-**Nilex**, maintained by **Elmahrosa International**, is Egypt's first civic decentralized exchange (DEX) built on the **Solaroni blockchain**. It empowers transparent, secure, and locally-driven token swaps—starting with native civic assets like **TEOS** and **TUT**, and expanding to stablecoins such as **USDC** and **USDT**.
+**Nilex**, maintained by **Elmahrosa International**, is Egypt's first civic decentralized exchange (DEX) built on the **Solana blockchain**. It empowers transparent, secure, and locally-driven token swaps—starting with native civic assets like **TEOS** and **TUT**, and expanding to stablecoins such as **USDC** and **USDT**.
 
 Unlike conventional DEXs, Nilex operates independently—free from external platforms like Orca or Dexlab. It's designed for Egypt's contributors, creators, and communities, with full control over liquidity, governance, and civic incentives. This project is open-source and actively maintained on GitHub.
 
